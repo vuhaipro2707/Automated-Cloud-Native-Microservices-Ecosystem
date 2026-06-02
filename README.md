@@ -1,4 +1,4 @@
-# Final Software Deployment, Operations, and Maintenance Project
+# Automated-Cloud-Native-Microservices-Ecosystem
 
 ## Project Overview
 This project is a comprehensive web application system built on a Microservices architecture (Node.js & MongoDB), focusing on automating the Deployment, Operations, and Maintenance workflows. The system leverages modern technologies such as Infrastructure as Code (Terraform), Configuration Management (Ansible), and Container Orchestration (Kubernetes).
@@ -11,6 +11,9 @@ This project is a comprehensive web application system built on a Microservices 
 - **High Availability & Auto-scaling:** Configured HPA (Horizontal Pod Autoscaler) and self-healing mechanisms.
 - **Security:** Automated SSL/TLS certificate management via Cert-Manager and Let's Encrypt.
 
+### Workflow Process
+![Infrastructure Provisioning Flow](images/Infrastructure_Provisioning_Flow.png)
+
 ## Project Structure
 ```bash
 /final-project
@@ -20,6 +23,9 @@ This project is a comprehensive web application system built on a Microservices 
   └── /k8s                 # Orchestration (Deployment, Service, Storage, HPA Configuration)
 ```
 
+## System Architecture
+![System Architecture](images/Deployment_&_Orchestration_Flow.png)
+
 ## Image Building and Pushing to Docker Hub For First Deployment
 Build image command:
 
@@ -28,6 +34,9 @@ Build image command:
 Push image command:
 
 ```docker push vuhaipro2707/final-app:v1.0.0```
+
+## CI/CD Pipeline
+![CI/CD Pipeline](images/CICD_Pipeline.png)
 
 ## Tool Installation Guide on macOS (For Local Machine)
 
