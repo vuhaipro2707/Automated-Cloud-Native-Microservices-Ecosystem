@@ -1,0 +1,7 @@
+app/**/* linguist-vendored
+
+*.yml linguist-detectable linguist-documentation=false
+*.yaml linguist-detectable linguist-documentation=false
+
+*.tf linguist-detectable
+*.sh linguist-detectable
